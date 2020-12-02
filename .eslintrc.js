@@ -61,6 +61,10 @@ module.exports = {
         checkProperties: true,
       },
     ],
+    /**
+     * @info jest rules
+     */
+    'jest/no-disabled-tests': 'off',
   },
   settings: {
     jest: {
