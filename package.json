@@ -1,7 +1,7 @@
 {
-  "name": "node-boilerplate",
+  "name": "javascriptmas2020",
   "version": "1.0.0",
-  "description": "Node boilerplate with eslint, prettier, husky, lint-staged & jest",
+  "description": "JavaScriptmas 2020 challenges by Scrimba",
   "main": "./src/index.js",
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
@@ -12,10 +12,12 @@
     "version": "babel --version"
   },
   "keywords": [
-    "node",
-    "boilerplate"
+    "javascript",
+    "scrimba",
+    "javascriptmas 2020",
+    "jest"
   ],
-  "author": "",
+  "author": "ireshka",
   "license": "MIT",
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.12.1",
