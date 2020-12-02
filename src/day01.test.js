@@ -1,6 +1,6 @@
 const { candies } = require('./day01');
 
-describe('day 01: candies()', () => {
+describe.skip('day 01: candies()', () => {
   it('returns ammount of total equal candy to be eaten', () => {
     expect.assertions(1);
     const children = 3;
