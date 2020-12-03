@@ -22,11 +22,11 @@
 const getCapitalizedAmount = (amount, rate) => amount * (1 + rate / 100);
 
 const depositProfit = (deposit, rate, threshold) => {
-  let actualThrehold = deposit;
+  let actualThreshold = deposit;
   let year = 0;
 
-  while (actualThrehold < threshold) {
-    actualThrehold = getCapitalizedAmount(actualThrehold, rate);
+  while (actualThreshold < threshold) {
+    actualThreshold = getCapitalizedAmount(actualThreshold, rate);
     year += 1;
   }
 
