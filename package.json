@@ -8,7 +8,7 @@
     "build": "rimraf ./dist && babel src -d dist",
     "check:eslint:deprecated": "eslint-find-rules --deprecated -no-error .eslintrc.js",
     "check:eslint:unused": "eslint-find-rules --unused -no-error .eslintrc.js",
-    "test": "jest --watchAll",
+    "test": "jest --watchAll --verbose",
     "version": "babel --version"
   },
   "keywords": [
