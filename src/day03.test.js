@@ -1,6 +1,6 @@
 const { chunkyMonkey } = require('./day03');
 
-describe('chunkyMonkey()', () => {
+describe.skip('chunkyMonkey()', () => {
   it('returns largest positive integer possible for digit count', () => {
     expect.assertions(1);
     const values = ['a', 'b', 'c', 'd'];
