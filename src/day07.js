@@ -20,7 +20,6 @@ const countVowelConsonant = (string) => {
       return (accumulator += 1);
     } else return (accumulator += 2);
   };
-  // eslint-disable-next-line unicorn/no-fn-reference-in-iterator
   const numberValue = string.split('').reduce(reduceCallback, 0);
 
   return numberValue;
