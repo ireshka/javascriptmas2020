@@ -50,6 +50,7 @@ module.exports = {
     'unicorn/filename-case': 'off',
     'unicorn/import-index': 'off',
     'unicorn/import-style': 'off',
+    'unicorn/no-fn-reference-in-iterator': 'off',
     'unicorn/no-null': 'off',
     'unicorn/no-reduce': 'off',
     'unicorn/numeric-separators-style': 'off',
