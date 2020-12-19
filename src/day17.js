@@ -12,6 +12,4 @@ const differentSymbolsNaive = (string) => {
   return numberSymbols;
 };
 
-differentSymbolsNaive('cabca');
-
 module.exports = { differentSymbolsNaive };
