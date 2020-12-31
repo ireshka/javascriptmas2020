@@ -11,3 +11,4 @@ Task with **visual layer** includes a css file, html file and js file. For these
 <u>**Non-only JS tasks preview:**</u>
 - **Day 08** - Rolling Dice - [Preview](https://ireshka.github.io/javascriptmas2020/src/day08.html)
 - **Day 15** - Christmas Carousel - [Preview](https://ireshka.github.io/javascriptmas2020/src/day15.html)
+- **Day 23** - Social Media Input - Twittter Style - [Preview](https://ireshka.github.io/javascriptmas2020/src/day23.html)
