@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test your agility</title>
+    <link rel="stylesheet" href="./day24.css" />
+    <script src="./day24.js" defer></script>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Test your agility!</h1>
+      <p class="instruction">
+        Push the button at the right time to hit the target number (0-100)
+      </p>
+    </div>
+    <div class="target">
+      <h2 class="label">Target Number:</h2>
+      &nbsp;
+      <p id="targetNum" class="number"></p>
+    </div>
+    <div class="spin">
+      <h2 class="label">Spining Wheel:</h2>
+      &nbsp;
+      <p id="spinning" class="number"></p>
+    </div>
+    <div class="btn-container">
+      <button id="buttonPressed" class="btn btn-stop">STOP</button>
+      <button id="buttonReplay" class="btn btn-replay" disabled>REPLAY</button>
+    </div>
+    <p class="resultBox" id="result"></p>
+  </body>
+</html>

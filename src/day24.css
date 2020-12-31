@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.instruction {
+  font-size: 1.5rem;
+}
+
+.target,
+.spin {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.label,
+.number {
+  font-size: 1.75rem;
+}
+
+.number {
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.target .number {
+  color: blue;
+}
+.spin .number {
+  color: darkgreen;
+}
+
+.resultBox {
+  color: blue;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.btn-stop {
+  border: 1px solid red;
+}
+
+.btn-replay {
+  border: 1px solid darkgreen;
+}
